@@ -23,8 +23,8 @@ testvals = [
     hw2.is_plural("a"),
     hw2.is_plural("s"),
     hw2.make_np("word"),
-    hw2.make_sentence(["dogs", "chase", "cat"]),
-    hw2.make_sentence(["cat", "scratch", "sofa"]), #19
+    hw2.make_sentence("dogs", "chase", "cat"),
+    hw2.make_sentence("cat", "scratch", "sofa"), #19
     hw2.vocab(hw2.mytext),
     hw2.A7,
     hw2.A8,
